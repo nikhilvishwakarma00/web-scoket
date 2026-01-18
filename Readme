@@ -1,4 +1,4 @@
-A WebSocket is a communication protocol that allows for real-time, two-way (bidirectional) data exchange between a web browser (client) and a server over a single,
+!!!!A WebSocket is a communication protocol that allows for real-time, two-way (bidirectional) data exchange between a web browser (client) and a server over a single,
 persistent connection, unlike traditional HTTP's request-response model. 
 This full-duplex connection stays open, enabling the server to push data to the client instantly without the client repeatedly asking, making it ideal for live chats, multiplayer games,
 stock tickers, and collaborative tools that need low latency and continuous updates. 
