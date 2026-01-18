@@ -11,9 +11,9 @@ stock tickers, and collaborative tools that need low latency and continuous upda
 *Bidirectional Flow: Both the client and server can send data at any time, allowing for true real-time interaction. 
 
 *Key advantages over HTTP
-Lower Latency: Eliminates the delay of repeated HTTP requests.
-Efficiency: Less overhead because HTTP headers aren't sent with every message.
-Real-time: Perfect for applications needing instant data updates. 
+ Lower Latency: Eliminates the delay of repeated HTTP requests.
+ Efficiency: Less overhead because HTTP headers aren't sent with every message.
+ Real-time: Perfect for applications needing instant data updates. 
 
 **$(Common uses)
 Live chat applications
