@@ -4,7 +4,7 @@ This full-duplex connection stays open, enabling the server to push data to the 
 stock tickers, and collaborative tools that need low latency and continuous updates. 
 
 
-##How it works
+$##How it works
 
 *Handshake: A WebSocket connection starts with an HTTP request, but the server "upgrades" the connection to the WebSocket protocol.
 *Persistent Connection: Once established, the TCP connection remains open, reducing overhead from re-establishing connections for every message.
