@@ -1,0 +1,23 @@
+A WebSocket is a communication protocol that allows for real-time, two-way (bidirectional) data exchange between a web browser (client) and a server over a single,
+persistent connection, unlike traditional HTTP's request-response model. 
+This full-duplex connection stays open, enabling the server to push data to the client instantly without the client repeatedly asking, making it ideal for live chats, multiplayer games,
+stock tickers, and collaborative tools that need low latency and continuous updates. 
+
+
+##How it works
+
+*Handshake: A WebSocket connection starts with an HTTP request, but the server "upgrades" the connection to the WebSocket protocol.
+*Persistent Connection: Once established, the TCP connection remains open, reducing overhead from re-establishing connections for every message.
+*Bidirectional Flow: Both the client and server can send data at any time, allowing for true real-time interaction. 
+
+*Key advantages over HTTP
+Lower Latency: Eliminates the delay of repeated HTTP requests.
+Efficiency: Less overhead because HTTP headers aren't sent with every message.
+Real-time: Perfect for applications needing instant data updates. 
+
+**$(Common uses)
+Live chat applications
+Online multiplayer games
+Real-time notifications and alerts
+Live sports score updates
+Collaborative editing tools (like Google Docs) 
